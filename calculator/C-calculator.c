@@ -45,14 +45,14 @@ void calculation (double x, double y, char op){
         if ( y != 0 ){          //ensures that value of variable 'y' given by the user is not zero
             result = x / y;
             printf("%f / %f = %f", x, y, result);
-            break;
+        break;
         } else{
-            printf("error: zero is not a valid input");
-            break;
+        printf("error: zero is not a validinput\n");
+        break;
         }
         default :{
-            printf("invalid input");
-            break;
+        printf("invalid input");
+        break;
         }
     }
 
